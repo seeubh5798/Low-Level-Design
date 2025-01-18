@@ -15,6 +15,11 @@
                         Each type of notification should be stored in its own collection. The system must provide a way to access and iterate over these notifications one by one, without exposing the underlying structure or implementation of the collections.
                         Task:
                         Implement the iteration functionality for the notification system using the Iterator Design Pattern. Ensure that your solution can be extended easily to accommodate future types of notifications without modifying existing code. The system should allow users to navigate through all types of notifications seamlessly.
-    State Pattern - 
+    State Pattern -     Maps quesition with different strategy for getting ETA implemented.
+    Mediator pattern -  Group chat implemented.
 
+
+# Creational design pattern
+    Covers
+    Singleton Design patttern - Bill Pugh Solution implemented
 
