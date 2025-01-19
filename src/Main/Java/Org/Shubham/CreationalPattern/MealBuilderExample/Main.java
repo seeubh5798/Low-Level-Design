@@ -35,8 +35,8 @@ public class Main {
         // TODO: Print the summary of the constructed full meal.
         MealBuilder mb1 = new MealBuilder(fullMainDish, fullSideDish, fullDrink).setDessert(fullDessert).setAppetizer(fullAppetizer);
 
-        Meal m1 = Meal.getInstance(mb1);
-
+//        Meal m1 = Meal.getInstance(mb1);
+        Meal m1 = mb1.build();
         m1.printMealSummary();
         // Get simple meal components from user
         String simpleMainDish = sc.nextLine();
@@ -47,8 +47,8 @@ public class Main {
 
         // TODO: Construct a simple meal using MealBuilder with the provided components.
         MealBuilder mb2 = new MealBuilder(simpleMainDish, simpleSideDish, simpleDrink);
-
-        Meal m2 = Meal.getInstance(mb2);
+        Meal m2 = mb2.build();
+//        Meal m2 = Meal.getInstance(mb2);
 
         // m2.printMealSummary();
 
