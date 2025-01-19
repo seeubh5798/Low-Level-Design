@@ -23,5 +23,7 @@
     Covers
     Singleton Design patttern - Bill Pugh Solution implemented
     Builder Pattern - When an obj requires too many option params in constructor, we use builder pattern to avoid constructor explosion.Uses nwsted Nuilder class and getters/setters to create Outerclass object
+    FactoryPattern - provides a way to create objects without specifying the exact class that will be instantiated. Instead of calling the constructor directly, a factory method is used to create objects based on input conditions
+    Abstract FactoryPattern -provides an interface for creating families of related objects without specifying their concrete classes.
     
 
