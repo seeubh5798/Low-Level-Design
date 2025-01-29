@@ -26,5 +26,10 @@
     FactoryPattern - provides a way to create objects without specifying the exact class that will be instantiated. Instead of calling the constructor directly, a factory method is used to create objects based on input conditions
     Abstract FactoryPattern -provides an interface for creating families of related objects without specifying their concrete classes.
     Prototype Pattern - mainly used for object cloning from existing objects
+
+# Structural design pattern
+    Covers
+    Adapter pattern - useful to create link between two incompatible classes /methods e.g integrating 3rd party with lgeacy systems.
+    
     
 
