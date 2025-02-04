@@ -32,6 +32,8 @@
     Adapter pattern - useful to create link between two incompatible classes /methods e.g integrating 3rd party with lgeacy systems.
     Proxy Pattern - Example used is to create a proxy service with cache to avoid direct interaction with original object.
     Composite pattern - create strcuture for files and folders where both are treated with uniformity example. Generally used for hierarchical structures.
+    Facade pattern - similar to simple API Gateway design.
+    fly weight pattern - always used to memory optimisation for shared properties of objects.
 
     
 
